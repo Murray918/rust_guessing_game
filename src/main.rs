@@ -18,5 +18,6 @@ fn main() {
     io::stdin().read_line(&mut guess)
         .expect("Failed to Read line");
 
+    // print the number the user has guessed
      println!("You guessed: {}", guess);
 }
